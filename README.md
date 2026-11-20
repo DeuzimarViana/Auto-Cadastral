@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/banner.svg"
+       alt="Banner do projeto Auto-Cadastral: ferramenta de linha de comando para geração e consulta de situação cadastral de CPF e CNPJ, em verde, amarelo e preto"
+       width="100%">
+</p>
+
 # Auto-Cadastral
 
 Ferramenta de linha de comando para geração e consulta de situação cadastral de CPF e CNPJ.
