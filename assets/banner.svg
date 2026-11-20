@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Auto-Cadastral</title>
+  <desc id="d">Banner do projeto Auto-Cadastral em estilo jamaicano, nas cores verde, amarelo e preto: ferramenta de linha de comando para geração e consulta de situação cadastral de CPF e CNPJ.</desc>
+  <defs>
+    <clipPath id="c"><rect width="1280" height="360" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1280" height="360" fill="#0a0a0a"/>
+    <!-- Cruz diagonal sutil, inspirada na bandeira -->
+    <g stroke="#fed100" stroke-opacity="0.13" stroke-width="46">
+      <line x1="-20" y1="-10" x2="1300" y2="370"/>
+      <line x1="-20" y1="370" x2="1300" y2="-10"/>
+    </g>
+    <!-- Faixas superior e inferior -->
+    <rect x="0" y="0" width="1280" height="8" fill="#009b3a"/>
+    <rect x="0" y="0" width="320" height="8" fill="#fed100"/>
+    <rect x="0" y="352" width="1280" height="8" fill="#009b3a"/>
+    <rect x="960" y="352" width="320" height="8" fill="#fed100"/>
+
+    <!-- Ícone: cartão de identificação + selo de verificado -->
+    <g transform="translate(70,80)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="20" width="200" height="140" rx="14" fill="#141414" stroke="#009b3a" stroke-width="6"/>
+      <circle cx="50" cy="70" r="17" stroke="#fed100" stroke-width="6"/>
+      <path d="M22 128 q28 -36 56 0" stroke="#fed100" stroke-width="6"/>
+      <line x1="106" y1="62" x2="170" y2="62" stroke="#9a9a9a" stroke-width="6"/>
+      <line x1="106" y1="86" x2="160" y2="86" stroke="#9a9a9a" stroke-width="6"/>
+      <line x1="106" y1="110" x2="140" y2="110" stroke="#9a9a9a" stroke-width="6"/>
+      <circle cx="172" cy="150" r="32" fill="#0a0a0a" stroke="#fed100" stroke-width="6"/>
+      <polyline points="156,150 168,162 189,138" stroke="#1fbf5b" stroke-width="8"/>
+    </g>
+
+    <!-- Texto -->
+    <g font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace">
+      <text x="320" y="156" font-size="76" font-weight="700" fill="#ffffff">Auto-<tspan fill="#fed100">Cadastral</tspan></text>
+      <text x="320" y="212" font-size="26" fill="#e8e8e8">Geração e consulta de situação cadastral de CPF e CNPJ</text>
+      <text x="320" y="262" font-size="24"><tspan fill="#1fbf5b">CPF</tspan><tspan fill="#9a9a9a"> • </tspan><tspan fill="#1fbf5b">CNPJ</tspan><tspan fill="#9a9a9a"> • </tspan><tspan fill="#1fbf5b">CPFHub</tspan><tspan fill="#9a9a9a"> • </tspan><tspan fill="#1fbf5b">ReceitaWS</tspan></text>
+      <text x="320" y="312" font-size="24"><tspan fill="#fed100">$ </tspan><tspan fill="#c8c8c8">python3 autocadastral.py</tspan></text>
+      <rect x="684" y="294" width="13" height="24" fill="#fed100"/>
+    </g>
+  </g>
+</svg>
